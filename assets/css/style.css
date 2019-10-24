@@ -1,0 +1,279 @@
+@import url(font.css);
+
+/*
+    G E N E R A L
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+  color: #252525;
+  position: relative;
+  height: 100%;
+  background: #fff;
+  -webkit-tap-highlight-color: transparent;
+  overflow:visible !important;
+}
+div, section, footer, .btn {
+  box-sizing: border-box;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus, input:focus {
+  outline: none;
+}
+p {
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0 0 10px 0;
+}
+input {
+	display: block;
+	width: 100%;
+	height: 58px;
+	background-color: #e4e4e4;
+	border-radius: 5px;
+	box-shadow: inset 0 2px 0 rgba(26, 29, 33, 0.3);
+	color: #252525;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 29px;
+	padding: 0 8px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+input:hover,
+input:focus {
+  
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	padding: 0 0 0 0;
+}
+ul li:before {
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	-webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/*ol {
+	list-style: none;
+	counter-reset: myCounter;
+}
+ol li {
+	color: #252525;
+	position: relative;
+	font-family: 'Roboto Condensed';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	padding-left: 16px;
+	letter-spacing: 0.01em;
+	margin-bottom: 22px;
+	text-align: left;
+}
+ol li:before {
+	content: "";
+	display: block;
+	counter-increment: myCounter;
+	content:counter(myCounter);
+	color: #fff;
+	text-align: center;
+	font-family: 'Roboto Condensed';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	width: 15px;
+	height: 15px;
+	background: #ee1d23;
+	position: absolute;
+	top: -2px;
+  left: -29px;
+	border-radius: 50%;
+	z-index: -1;
+}*/
+.title {
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.desc {
+	color: #252525;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 15px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.wrapper {
+    
+}
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*
+    B U T T O N S
+*/
+
+.btn {
+	
+}
+
+
+
+/*
+    H E A D E R
+*/
+
+
+
+/*
+    S E R V I C E S
+*/
+
+
+
+/*
+    F O O T E R
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+    P O P U P
+*/
+
+
+/*
+    M O B I L E 
+*/
+
+@media screen and (max-width: 1440px) {
+	
+}
+
+@media screen and (max-width: 1366px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+	html, body{
+      min-width: 320px;
+      width: 100%;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    a:focus {
+      outline: none;
+    }
+    .container {
+      width: 100% !important;
+      max-width: 1200px;
+      padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 768px) {
+	
+}
+
+
+@media screen and (max-width: 767px) {
+	
+}
+
+@media screen and (max-width: 675px) {
+	
+}
+
+
+@media screen and (max-width: 575px) {
+	
+}
+
+
+@media screen and (max-width: 475px) {
+	
+}
+
+@media screen and (max-width: 414px) {
+	
+}
+
+@media screen and (max-width: 375px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
+
